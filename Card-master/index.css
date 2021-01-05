@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+#root{
+    background-color: blue;
+    font-family: 'Manrope', sans-serif;
+}
+.main{
+    background-color: brown;
+}
+
+body{
+    background-color: rgb(208, 243, 238);
+    }
+.card__image-container{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    overflow: hidden;
+    width: 48%;
+    box-shadow: 0 10px 10px rgba(5, 3, 3, 0.2); 
+    }
+
+.card__image{
+    height: 280px;
+    width: 280px;
+    }
+
+.card__body{
+    position: relative;
+    width: 80px;
+    }
+
+.card__title{
+    margin-left: 20px;    
+    }
+
+.card__parrafo{
+    margin-left: 20px;  
+    }
+
+.information{
+    position: absolute;
+    bottom: 5px;
+    }
+
+.information__image-contanier{
+    position: absolute;
+    bottom: 10px;
+    }
+
+.information__image{
+    margin-left: 20px;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    }
+
+.information__detail{
+    
+    }
+
+.information__name{
+    width: 100%;
+    margin-left: 80px;  
+    }
+
+.information__date{
+    width: 100%;
+    margin-left: 80px; 
+}
+
+.information__shared{
+    margin-left: 100%;
+    margin-bottom: 1px;
+    }
+
